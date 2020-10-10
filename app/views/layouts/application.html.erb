@@ -10,6 +10,12 @@
 
   <body>
     <main>
+      <nav>
+        <% if current_user %>
+          <%= button_to 'Logout', logout_path, method: :get %>
+          <%= button_to 'Profile', dashboard_path, method: :get %>
+        <% end %>
+      </nav>
       <% flash.each do |type, message| %>
         <p><%= message %></p>
       <% end %>
