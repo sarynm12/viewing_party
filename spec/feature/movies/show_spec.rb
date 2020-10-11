@@ -47,6 +47,7 @@ RSpec.describe 'movie show page' do
           expect(page).to have_content("Overview: #{first_movie[:overview]}")
           first_movie_cast_list.each{ |per| expect(page).to have_content(per)}
         end
+        
         it "and I should see the count of total reviews as well as each author's name and info" do
           first_movie = JSON.parse(File.read('spec/fixtures/first_movie_link.json'), symbolize_names: true)
           first_movie_reviews = JSON.parse(File.read('spec/fixtures/first_movie_reviews.json'), symbolize_names: true)

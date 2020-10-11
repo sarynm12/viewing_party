@@ -29,7 +29,7 @@ RSpec.describe "As a registered user" do
     expect(current_path).to eq("/login")
   end
 
-  it "I cannot login with incorrect email" do
+  it "I cannot login with incorrect password" do
     expect(current_path).to eq("/login")
 
     fill_in :email, with: @user.email

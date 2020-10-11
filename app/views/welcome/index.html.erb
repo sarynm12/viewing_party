@@ -1,10 +1,16 @@
 <body class="welcome-page">
   <div class="login-button">
-    <%= button_to "Login", "/login", :style => 'font-size: 20px;background-color:rgb(236, 116, 173);border-radius:5px;box-shadow: 0 0 10px #a9a9a9;', method: :get %>
+    <% if current_user.nil? %>
+      <%= button_to "Login", "/login", :style => 'font-size: 20px;background-color:rgb(236, 116, 173);border-radius:5px;box-shadow: 0 0 10px #a9a9a9;', method: :get %>
+    <% else %>
+    <% end %>
   </div>
 
   <div class="register-button">
-    <%= button_to "Register", "/registration", :style => 'font-size: 20px;background-color:rgb(236, 116, 173);border-radius:5px;box-shadow: 0 0 10px #a9a9a9;', :id => "register-button", method: :get %>
+    <% if current_user.nil? %>
+      <%= button_to "Register", "/registration", :style => 'font-size: 20px;background-color:rgb(236, 116, 173);border-radius:5px;box-shadow: 0 0 10px #a9a9a9;', :id => "register-button", method: :get %>
+      <% else %>
+      <% end %>
   </div>
 
   <div class="container">
