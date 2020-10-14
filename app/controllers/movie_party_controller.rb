@@ -1,6 +1,6 @@
 class MoviePartyController < ApplicationController
   def new
-    @movie = SearchFacade.get_specific_movie(params[:id].to_i)
+    @movie = MoviesFacade.get_specific_movie(params[:id].to_i)
     @runtime = MovieStats.calculate_time(@movie)
   end
   # date is in form of day, month, year

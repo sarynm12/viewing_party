@@ -1,0 +1,409 @@
+{
+    "page": 2,
+    "total_results": 10000,
+    "total_pages": 500,
+    "results": [
+        {
+            "popularity": 554.721,
+            "vote_count": 1413,
+            "video": false,
+            "poster_path": "/TnOeov4w0sTtV2gqICqIxVi74V.jpg",
+            "id": 605116,
+            "adult": false,
+            "backdrop_path": "/qVygtf2vU15L2yKS4Ke44U4oMdD.jpg",
+            "original_language": "en",
+            "original_title": "Project Power",
+            "genre_ids": [
+                28,
+                80,
+                878
+            ],
+            "title": "Project Power",
+            "vote_average": 6.6,
+            "overview": "An ex-soldier, a teen and a cop collide in New Orleans as they hunt for the source behind a dangerous new pill that grants users temporary superpowers.",
+            "release_date": "2020-08-14"
+        },
+        {
+            "popularity": 507.022,
+            "vote_count": 73,
+            "video": false,
+            "poster_path": "/k8Oj2YlFKbwj1SNKZcb5Fw1Yosj.jpg",
+            "id": 741998,
+            "adult": false,
+            "backdrop_path": "/tOOfXpIKyY80kY108pwSgLozgRA.jpg",
+            "original_language": "it",
+            "original_title": "Il legame",
+            "genre_ids": [
+                18,
+                27,
+                53
+            ],
+            "title": "The Binding",
+            "vote_average": 5.6,
+            "overview": "While visiting her fiancé's mother in southern Italy, a woman must fight the mysterious and malevolent curse intent on claiming her daughter.",
+            "release_date": "2020-10-02"
+        },
+        {
+            "popularity": 493.598,
+            "vote_count": 112,
+            "video": false,
+            "poster_path": "/n6hptKS7Y0ZjkYwbqKOK3jz9XAC.jpg",
+            "id": 594328,
+            "adult": false,
+            "backdrop_path": "/lkeBhXGJFRlhI7cBWn8LQQAdZqK.jpg",
+            "original_language": "en",
+            "original_title": "Phineas and Ferb The Movie: Candace Against the Universe",
+            "genre_ids": [
+                16,
+                35,
+                10402,
+                878,
+                10751,
+                10770
+            ],
+            "title": "Phineas and Ferb The Movie: Candace Against the Universe",
+            "vote_average": 7.1,
+            "overview": "Phineas and Ferb travel across the galaxy to rescue their older sister Candace, who has been abducted by aliens and taken to a utopia in a far-off planet, free of her pesky little brothers.",
+            "release_date": "2020-08-28"
+        },
+        {
+            "popularity": 481.091,
+            "vote_count": 438,
+            "video": false,
+            "poster_path": "/kPzcvxBwt7kEISB9O4jJEuBn72t.jpg",
+            "id": 677638,
+            "adult": false,
+            "backdrop_path": "/pO1SnM5a1fEsYrFaVZW78Wb0zRJ.jpg",
+            "original_language": "en",
+            "original_title": "We Bare Bears: The Movie",
+            "genre_ids": [
+                12,
+                16,
+                35,
+                9648,
+                10751
+            ],
+            "title": "We Bare Bears: The Movie",
+            "vote_average": 7.8,
+            "overview": "When Grizz, Panda, and Ice Bear's love of food trucks and viral videos went out of hand, it catches the attention of Agent Trout from the National Wildlife Control, who pledges to restore the “natural order” by separating them forever. Chased away from their home, the Bears embark on an epic road trip as they seek refuge in Canada, with their journey being filled with new friends, perilous obstacles, and huge parties. The risky journey also forces the Bears to face how they first met and became brothers, in order to keep their family bond from splitting apart.",
+            "release_date": "2020-06-30"
+        },
+        {
+            "popularity": 470.714,
+            "vote_count": 45,
+            "video": false,
+            "poster_path": "/9Z1zkb4Z9hUlEuC0oMagVJaPUeS.jpg",
+            "id": 716258,
+            "adult": false,
+            "backdrop_path": "/1fOwb62XudDlevVyu1rqUlHUrES.jpg",
+            "original_language": "en",
+            "original_title": "Black Box",
+            "genre_ids": [
+                27,
+                878,
+                53
+            ],
+            "title": "Black Box",
+            "vote_average": 6.6,
+            "overview": "After losing his wife and memory in a car accident, a single father undergoes an experimental treatment that makes him question who he really is.",
+            "release_date": "2020-10-06"
+        },
+        {
+            "popularity": 464.85,
+            "vote_count": 67,
+            "video": false,
+            "poster_path": "/w6e0XZreiyW4mGlLRHEG8ipff7b.jpg",
+            "id": 722603,
+            "adult": false,
+            "backdrop_path": "/m7QpUAeI2xTCJyAVl9J9z5dBTSb.jpg",
+            "original_language": "en",
+            "original_title": "Battlefield 2025",
+            "genre_ids": [
+                28,
+                27,
+                878
+            ],
+            "title": "Battlefield 2025",
+            "vote_average": 5.7,
+            "overview": "Weekend campers, an escaped convict, young lovers and a police officer experience a night of terror when a hostile visitor from another world descends on a small Arizona town.",
+            "release_date": "2020-07-07"
+        },
+        {
+            "popularity": 443.564,
+            "vote_count": 5384,
+            "video": false,
+            "poster_path": "/y95lQLnuNKdPAzw9F9Ab8kJ80c3.jpg",
+            "id": 38700,
+            "adult": false,
+            "backdrop_path": "/upUy2QhMZEmtypPW3PdieKLAHxh.jpg",
+            "original_language": "en",
+            "original_title": "Bad Boys for Life",
+            "genre_ids": [
+                28,
+                80,
+                53
+            ],
+            "title": "Bad Boys for Life",
+            "vote_average": 7.2,
+            "overview": "Marcus and Mike are forced to confront new threats, career changes, and midlife crises as they join the newly created elite team AMMO of the Miami police department to take down the ruthless Armando Armas, the vicious leader of a Miami drug cartel.",
+            "release_date": "2020-01-15"
+        },
+        {
+            "popularity": 436.97,
+            "vote_count": 452,
+            "video": false,
+            "poster_path": "/kiX7UYfOpYrMFSAGbI6j1pFkLzQ.jpg",
+            "id": 613504,
+            "adult": false,
+            "backdrop_path": "/r5srC0cqU36n38azFnCyReEksiR.jpg",
+            "original_language": "en",
+            "original_title": "After We Collided",
+            "genre_ids": [
+                18,
+                10749
+            ],
+            "title": "After We Collided",
+            "vote_average": 6.6,
+            "overview": "Tessa finds herself struggling with her complicated relationship with Hardin; she faces a dilemma that could change their lives forever.",
+            "release_date": "2020-09-02"
+        },
+        {
+            "popularity": 428.174,
+            "vote_count": 113,
+            "video": false,
+            "poster_path": "/sDi6wKgECUjDug2gn4uODSqZ3yC.jpg",
+            "id": 632618,
+            "adult": false,
+            "backdrop_path": "/cVdYaAQmd5DZNdo0KFJruz7JpUs.jpg",
+            "original_language": "es",
+            "original_title": "Crímenes de familia",
+            "genre_ids": [
+                80,
+                18,
+                53
+            ],
+            "title": "The Crimes That Bind",
+            "vote_average": 6.5,
+            "overview": "When her son is accused of raping and trying to murder his ex-wife, Alicia embarks on a journey that will change her life forever.",
+            "release_date": "2020-08-20"
+        },
+        {
+            "popularity": 428.168,
+            "vote_count": 751,
+            "video": false,
+            "poster_path": "/jHo2M1OiH9Re33jYtUQdfzPeUkx.jpg",
+            "id": 385103,
+            "adult": false,
+            "backdrop_path": "/fKtYXUhX5fxMxzQfyUcQW9Shik6.jpg",
+            "original_language": "en",
+            "original_title": "Scoob!",
+            "genre_ids": [
+                12,
+                16,
+                35,
+                10751
+            ],
+            "title": "Scoob!",
+            "vote_average": 7.4,
+            "overview": "In Scooby-Doo’s greatest adventure yet, see the never-before told story of how lifelong friends Scooby and Shaggy first met and how they joined forces with young detectives Fred, Velma, and Daphne to form the famous Mystery Inc. Now, with hundreds of cases solved, Scooby and the gang face their biggest, toughest mystery ever: an evil plot to unleash the ghost dog Cerberus upon the world. As they race to stop this global “dogpocalypse,” the gang discovers that Scooby has a secret legacy and an epic destiny greater than anyone ever imagined.",
+            "release_date": "2020-07-08"
+        },
+        {
+            "popularity": 409.675,
+            "vote_count": 185,
+            "video": false,
+            "poster_path": "/3TozQxUUX291sM68PlwsucoGatw.jpg",
+            "id": 11707,
+            "adult": false,
+            "backdrop_path": "/ceR1NkTowry9shrivFAlSXWTTa8.jpg",
+            "original_language": "en",
+            "original_title": "Tightrope",
+            "genre_ids": [
+                80,
+                18,
+                9648,
+                53
+            ],
+            "title": "Tightrope",
+            "vote_average": 6.1,
+            "overview": "Wes Block is a detective who's put on the case of a serial killer. His victims are young and pretty women, which he rapes and murders. The murders are getting personal when the killer chooses victims who are acquaintances of Block. Even his daughters are threatened.",
+            "release_date": "1984-08-17"
+        },
+        {
+            "popularity": 408.423,
+            "vote_count": 45,
+            "video": false,
+            "poster_path": "/cCB5ZQRko2LxaDIKX9Y9pkJKVBa.jpg",
+            "id": 715658,
+            "adult": false,
+            "backdrop_path": "/m1PgilaKrd0RgnpO1Lp3APGO79c.jpg",
+            "original_language": "en",
+            "original_title": "The Scientist",
+            "genre_ids": [
+                27
+            ],
+            "title": "The Scientist",
+            "vote_average": 6.5,
+            "overview": "A haunting psychological thriller about an unconventional scientist, Steve Unger, who struggles to care for his terminally-ill wife Darlene, who only has but a few weeks left to live. While trying to stay strong for his wife and 10-year-old daughter Lily, Steve hastily embarks on a journey to develop a cure to fix Darlene and keep his family together. Ignoring all legal and moral boundaries in search for his cure, his methods of treatment and tampering with human DNA, could lead to the extinction of humanity.",
+            "release_date": "2020-09-21"
+        },
+        {
+            "popularity": 408.226,
+            "vote_count": 145,
+            "video": false,
+            "poster_path": "/3eg0kGC2Xh0vhydJHO37Sp4cmMt.jpg",
+            "id": 531499,
+            "adult": false,
+            "backdrop_path": "/zogWnCSztU8xvabaepQnAwsOtOt.jpg",
+            "original_language": "en",
+            "original_title": "The Tax Collector",
+            "genre_ids": [
+                28,
+                80,
+                18
+            ],
+            "title": "The Tax Collector",
+            "vote_average": 6.1,
+            "overview": "David Cuevas is a family man who works as a gangland tax collector for high ranking Los Angeles gang members. He makes collections across the city with his partner Creeper making sure people pay up or will see retaliation. An old threat returns to Los Angeles that puts everything David loves in harm’s way.",
+            "release_date": "2020-08-07"
+        },
+        {
+            "popularity": 407.542,
+            "vote_count": 175,
+            "video": false,
+            "poster_path": "/aVbqhqYtlxwEGihTEhewZAgDOCX.jpg",
+            "id": 489326,
+            "adult": false,
+            "backdrop_path": "/dFB6Tiy3z2xRLbnEUB5ocApT5xG.jpg",
+            "original_language": "en",
+            "original_title": "Mortal",
+            "genre_ids": [
+                28,
+                14,
+                53
+            ],
+            "title": "Mortal",
+            "vote_average": 6.5,
+            "overview": "A young boy must discover the origins of his extraordinary powers before he is captured by authorities hell-bent on condemning him for an accidental murder.",
+            "release_date": "2020-02-28"
+        },
+        {
+            "popularity": 406.339,
+            "vote_count": 1244,
+            "video": false,
+            "poster_path": "/kjMbDciooTbJPofVXgAoFjfX8Of.jpg",
+            "id": 516486,
+            "adult": false,
+            "backdrop_path": "/xXBnM6uSTk6qqCf0SRZKXcga9Ba.jpg",
+            "original_language": "en",
+            "original_title": "Greyhound",
+            "genre_ids": [
+                28,
+                18,
+                10752
+            ],
+            "title": "Greyhound",
+            "vote_average": 7.5,
+            "overview": "A first-time captain leads a convoy of allied ships carrying thousands of soldiers across the treacherous waters of the “Black Pit” to the front lines of WW2. With no air cover protection for 5 days, the captain and his convoy must battle the surrounding enemy Nazi U-boats in order to give the allies a chance to win the war.",
+            "release_date": "2020-07-10"
+        },
+        {
+            "popularity": 402.386,
+            "vote_count": 6002,
+            "video": false,
+            "poster_path": "/h4VB6m0RwcicVEZvzftYZyKXs6K.jpg",
+            "id": 495764,
+            "adult": false,
+            "backdrop_path": "/9xNOiv6DZZjH7ABoUUDP0ZynouU.jpg",
+            "original_language": "en",
+            "original_title": "Birds of Prey (and the Fantabulous Emancipation of One Harley Quinn)",
+            "genre_ids": [
+                28,
+                35,
+                80
+            ],
+            "title": "Birds of Prey (and the Fantabulous Emancipation of One Harley Quinn)",
+            "vote_average": 7.2,
+            "overview": "Harley Quinn joins forces with a singer, an assassin and a police detective to help a young girl who had a hit placed on her after she stole a rare diamond from a crime lord.",
+            "release_date": "2020-02-05"
+        },
+        {
+            "popularity": 397.756,
+            "vote_count": 119,
+            "video": false,
+            "poster_path": "/lv3RonWge4GlC9ymNzC0oWpFCfv.jpg",
+            "id": 611395,
+            "adult": false,
+            "backdrop_path": "/90yhXKTDNfaV7JnC7RcTpZcRTGC.jpg",
+            "original_language": "zh",
+            "original_title": "征途",
+            "genre_ids": [
+                28,
+                12,
+                14
+            ],
+            "title": "Double World",
+            "vote_average": 6.8,
+            "overview": "Keen to bring honor to his clan, young villager Dong Yilong embarks on a perilous journey to compete in a tournament that selects warriors for battle.",
+            "release_date": "2020-07-21"
+        },
+        {
+            "popularity": 394.452,
+            "vote_count": 40,
+            "video": false,
+            "poster_path": "/q2lkJf1TAjImTHCEO7XvbqPtnPb.jpg",
+            "id": 703134,
+            "adult": false,
+            "backdrop_path": "/j57oUw8LIYvjOl0zs3A1A1UqwKH.jpg",
+            "original_language": "en",
+            "original_title": "Infamous",
+            "genre_ids": [
+                80,
+                18,
+                53
+            ],
+            "title": "Infamous",
+            "vote_average": 5.4,
+            "overview": "Two young lovers rob their way across the southland, posting their exploits to social media, and gaining fame and followers as a result.",
+            "release_date": "2020-06-12"
+        },
+        {
+            "popularity": 391.262,
+            "id": 746180,
+            "video": false,
+            "vote_count": 2,
+            "vote_average": 5,
+            "title": "TKG: The Kids of Grove",
+            "release_date": "2020-09-23",
+            "original_language": "en",
+            "original_title": "TKG: The Kids of Grove",
+            "genre_ids": [
+                80,
+                53
+            ],
+            "backdrop_path": "/lRI2Wyz8ZX5caHxc4V6mSLByze.jpg",
+            "adult": false,
+            "overview": "Wrapping up a long week of work employees are in a fight for survival against a local gang who are out for blood - but who is justified? A thrilling look into the consequences experienced by trying to do the \"right thing\" by society.",
+            "poster_path": "/fhewXiv5r1al9xjanJpI9aW1vih.jpg"
+        },
+        {
+            "popularity": 382.371,
+            "vote_count": 84,
+            "video": false,
+            "poster_path": "/bhNHCeJDFDaB00A46AoCw2mggdE.jpg",
+            "id": 601165,
+            "adult": false,
+            "backdrop_path": "/nxxODhq9I05Ze9uLONGvfDrzaUO.jpg",
+            "original_language": "en",
+            "original_title": "Legacy of Lies",
+            "genre_ids": [
+                28,
+                53
+            ],
+            "title": "Legacy of Lies",
+            "vote_average": 5.9,
+            "overview": "An ex-MI6 agent is thrown back into the world of espionage and high stakes to uncover the shocking truth about operations conducted by unknown secret services.",
+            "release_date": "2020-08-06"
+        }
+    ]
+}

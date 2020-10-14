@@ -1,4 +1,4 @@
-class MovieInfo
+class MovieService
   def self.movie_db
     'https://api.themoviedb.org'
   end
@@ -63,5 +63,18 @@ class MovieInfo
     conn = Faraday.new(url: 'https://api.themoviedb.org')
     response = conn.get("/3/movie/#{id}/recommendations?api_key=#{api_key}&language=en-US&page=1")
     JSON.parse(response.body, symbolize_names: true)
+  end
+
+  def self.popular(movie_count)
+    page = 1
+    movie_results = []
+    until movie_results.length >= movie_count
+      conn = Faraday.new(url: movie_db)
+      response = conn.get("/3/movie/popular?api_key=#{ENV['MOVIE_API_KEY']}#{language_and_country}&page=#{page}")
+      json = JSON.parse(response.body, symbolize_names: true)
+      json[:results].each { |f| movie_results << f }
+      page += 1
+    end
+    movie_results
   end
 end

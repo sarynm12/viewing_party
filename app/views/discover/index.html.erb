@@ -2,6 +2,10 @@
 <h1>Movie Discovery</h1>
 
 <div>
+  <%= button_to "Discover Current Popular Movies", "/movies", name: "popular", method: :get %>
+</div>
+
+<div>
   <%= button_to "Discover Top 40 Movies", "/movies", method: :get %>
 </div>
 
