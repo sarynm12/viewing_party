@@ -12,8 +12,8 @@ RSpec.describe CreateActor do
               }
 
       actor = CreateActor.new(attr)
-      expect(actor).to be_a(CreateActor)
-      expect(actor.character).to eq('Spiderman')
-      expect(actor.name).to eq('Tobey Maguire')
+      expect(movie).to be_a(CreateMovie)
+      expect(movie.title).to eq('The Dogs')
+      expect(movie.overview).to eq('Great Movie')
   end
 end
