@@ -43,7 +43,6 @@ RSpec.describe 'Dashboard page' do
 
         allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user2)
         visit '/dashboard'
-        # save_and_open_page
 
         within(".invited-parties-#{@movie_party1.id}") do
           expect(page).to have_content("Movie: #{@movie_party1.movie_title}")
