@@ -5,7 +5,8 @@ RSpec.describe 'movie show page' do
     @user = User.create!(username: "eDog", email: "elah@email.com", password: "password")
     allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
   end
-
+  # test for gibberish typed into search parameters, or '1234', or '!#$'
+  # test for how many words one can search for, 1 word vs many
   describe 'As an authenticated user' do
     describe "When I visit the movies detail page," do
       describe "I should see a button 'create a viewing party'" do
@@ -27,7 +28,7 @@ RSpec.describe 'movie show page' do
           stub_request(:get, "https://api.themoviedb.org/3/movie/#{first_movie[:id]}/credits?api_key=#{ENV['MOVIE_API_KEY']}").to_return(status: 200, body: json4)
           stub_request(:get, "https://api.themoviedb.org/3/movie/#{first_movie[:id]}/reviews?api_key=#{ENV['MOVIE_API_KEY']}&language=en-US&page=1").to_return(status: 200, body: json5)
           stub_request(:get, "https://api.themoviedb.org/3/movie/724089/recommendations?api_key=&language=en-US&page=1").to_return(status: 200, body: json9)
-          
+
 
           first_movie_cast_list = first_movie_cast[:cast].map{ |per| per[:name]}[0...9]
 
@@ -37,7 +38,7 @@ RSpec.describe 'movie show page' do
           visit "/discover"
           click_button "Discover Top 40 Movies"
 
-          within(first(".movie")) do
+          within(first(".cards")) do
             click_link
           end
 
@@ -71,8 +72,8 @@ RSpec.describe 'movie show page' do
 
           visit "/discover"
           click_button "Discover Top 40 Movies"
-
-          within(first(".movie")) do
+          # save_and_open_page
+          within(first(".cards")) do
             click_link
           end
 

@@ -4,7 +4,7 @@ RSpec.describe 'viewing party page' do
   before(:each) do
     @user = User.create!(username: "eDog", email: "elah@email.com", password: "password")
     allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
-  end
+  end # VCR will clean up, shorten tests
 
   describe 'As an authenticated user' do
     describe "When I visit the new viewing party page," do
@@ -19,7 +19,7 @@ RSpec.describe 'viewing party page' do
         json3 = File.read('spec/fixtures/first_movie_link.json')
         json4 = File.read('spec/fixtures/first_movie_cast.json')
         json9 = File.read('spec/fixtures/movie_recommendations.json')
-        
+
 
 
         stub_request(:get, "https://api.themoviedb.org/3/movie/top_rated?api_key=#{ENV['MOVIE_API_KEY']}&language=en-US&page=1").to_return(status: 200, body: json1)
@@ -39,7 +39,7 @@ RSpec.describe 'viewing party page' do
         click_button 'Add Friend'
         visit "/discover"
         click_button "Discover Top 40 Movies"
-        within(first(".movie")) do
+        within(first(".cards")) do
           click_link
         end
         expect(current_path).to eq("/movies/#{first_movie[:id]}")

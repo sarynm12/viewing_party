@@ -7,7 +7,6 @@ class CreateMovie
               :overview,
               :release_date,
               :runtime
-
   def initialize(attributes)
     @vote_count = attributes[:vote_count]
     @id = attributes[:id]

@@ -1,16 +1,21 @@
-<%= button_to 'Home', '/dashboard', method: :get %>
-<h1>Movie Discovery</h1>
+<body class="welcome-page">
+  <h1 style="font-size:60px;">Discover a Movie</h1>
 
-<div>
-  <%= button_to "Discover Current Popular Movies", "/movies", name: "popular", method: :get %>
-</div>
+  <img src="https://media.giphy.com/media/6nCOC4R1ssBXy/source.gif" alt="Tom Cruise You complete me" class="home-page" id="tom-cruise">
 
-<div>
-  <%= button_to "Discover Top 40 Movies", "/movies", method: :get %>
-</div>
+  <div class="search-movies">
+    <%= form_tag "/movies", value: "Search", method: :get do %>
+      <h3><%= label_tag :search %></h3>
+      <%= text_field_tag :search %>
+      <%= submit_tag 'Search By Movie' %>
+    <% end %>
+  </div>
+  <div class="discover-movies2">
+    <%= button_to "Discover Top 40 Movies", "/movies", method: :get %>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
 
-<%= form_tag "/movies", value: "Search", method: :get do %>
-  <%= label_tag :search %>
-  <%= text_field_tag :search %>
-  <%= submit_tag 'Search By Movie' %>
-<% end %>
+</body>

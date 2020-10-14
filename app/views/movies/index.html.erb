@@ -1,16 +1,62 @@
-<%= button_to 'Home', '/dashboard', method: :get %>
-<%x = 0 %>
-<%y = 20 %>
-<%= button_to "Top Rated Movies", "/movies", method: :get %>
+<!DOCTYPE html>
+  <body class="welcome-page">
+    <%x = 0 %>
+    <%y = 20 %>
 
-<%= form_tag "/movies", value: "Search", method: :get do %>
-  <%= label_tag :search %>
-  <%= text_field_tag :search %>
-  <%= submit_tag 'Search' %>
-<% end %>
-<% @results.each do |movie| %>
-  <div class="movie">
-    <%=link_to "#{x+=1}. #{movie.title}", "/movies/#{movie.id}" %>
-    <div class="vote">Vote average: <%=movie.vote_average%></div>
-  </div>
-<%end %>
+    <%= form_tag "/movies", value: "Search", method: :get do %>
+      <%= label_tag :search %>
+      <%= text_field_tag :search %>
+      <%= submit_tag 'Search' %>
+    <% end %>
+    <section id="discover-movies" class="discover-movies" style="float:left;">
+      <%= button_to "Top Rated Movies", "/movies", method: :get %>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <% @results.each do |movie| %>
+
+
+     <div class="container3">
+            <div class="cards">
+              <%if x.odd? || x == 0%>
+                <div class="card" style="float:left;">
+                    <div class="card-inner">
+                        <div class="card-front" id="card-front">
+                            <h4><%="#{x+=1}" %></h4>
+                            <br>
+                            <h5><%="#{movie.title}"%></h5>
+                        </div>
+                        <div class="card-back">
+                            <h3><%x%>Vote average: <%=movie.vote_average%></h3>
+                            <p><%= movie.overview %></p>
+                            <br>
+                            <h6><%= link_to "#{movie.title}", "/movies/#{movie.id}" %></h6>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <%elsif x.even? %>
+              <div class="card" style="float:right;">
+                  <div class="card-inner">
+                      <div class="card-front">
+                          <h4><%="#{x+=1}" %></h4>
+                          <br>
+                          <h5><%="#{movie.title}"%></h5>
+                      </div>
+                      <div class="card-back">
+                          <h3>Vote average: <%=movie.vote_average%></h3>
+                          <p><%= movie.overview %></p>
+                          <br>
+                          <h6><%= link_to "#{movie.title}", "/movies/#{movie.id}" %></h6>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <%end %>
+            <%end %>
+
+  </body>
+</html>

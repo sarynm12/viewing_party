@@ -12,8 +12,17 @@
     <main>
       <nav>
         <% if current_user %>
-          <%= button_to 'Logout', logout_path, method: :get %>
-          <%= button_to 'Profile', dashboard_path, method: :get %>
+        <div id="container2">
+          <div class="login-logout">
+            <%= button_to 'Logout', logout_path, method: :get %>
+          </div>
+          <div class="profile">
+            <%= button_to 'Profile', dashboard_path, method: :get %>
+          </div>
+          <div class="home-button" id="home-button">
+            <%= button_to 'Home', '/dashboard', method: :get %>
+          </div>
+        </div>
         <% end %>
       </nav>
       <% flash.each do |type, message| %>

@@ -1,11 +1,16 @@
-<body class="dashboard-page">
-  <div class="bottom-container">
+<body class="welcome-page">
+  <div class="welcome-container">
     <h1>Welcome <%= @user.username %></h1>
+  </div>
+
+  <div class="container2">
+    <img src="https://i.ibb.co/R7w3WQf/Screen-Shot-2020-10-13-at-5-39-48-PM.png" class="welcome" alt="welcome">
   </div>
 
   <section id="discover-movies" class="discover-movies">
     <%= button_to "Discover Movies", discover_index_path, method: :get %>
   </section>
+
 
   <section id="friends">
     <%= form_tag "/dashboard", method: :post do %>

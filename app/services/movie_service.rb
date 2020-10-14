@@ -27,7 +27,9 @@ class MovieService
     end
     movie_results.flatten
   end
-
+  # API calls and parsing the response, the only two things that should live in service
+  # can pull out Faraday call
+  # can put the longer lines into a block to make it more readable, could possibly include it into connection method
   def self.get_40_movies(movie_count)
     page = 1
     movie_results = []
