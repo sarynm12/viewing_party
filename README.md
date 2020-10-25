@@ -10,7 +10,7 @@ To download this app onto your compter, follow the instructions labelled 'Local 
 
 In this project we were expected to build an app where a user can register and create viewing parties involving a movie of their choice. The app has the following features;
 
-<br>
+Check it out<br>
 <br>
 #### -a user can register and subsequently login/logout of the app<br><br>
 ![Register gif](https://media.giphy.com/media/3LKT2cHV2H1mXtB3I6/source.gif)
@@ -47,4 +47,3 @@ The purpose of this project was to get first-time practice and implemenation of 
   - If a user has added friends, they have the ability to create a viewing party! They can select which friends they would like to invite, and select a movie to show!
   - 'Recommended movies', and 'top rated movies' are both extra pieces of functionality that required additional API calls
   - Future iterations: going forward, we would love to incorporate sending an email once a user has either created a viewing party, or been invited to one. This email would serve as a notification, because currently, a user needs to sign into our app to see whether or not they have any viewing parties. This email could also include an option to a 'accept' or 'decline' an invitiation
-  
